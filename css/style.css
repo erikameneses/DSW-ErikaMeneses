@@ -11,13 +11,15 @@ body{
     width: 100%;
     max-width: 1366px;
     margin: 0 auto;
+    
 }
 
 header{
     background: #F47920;
     color: #ebebd3;
-    padding: 1em 0;
+    padding: 0.5em 0;
     position: relative;
+   
 }
 
 header::after{
@@ -42,7 +44,10 @@ header::after{
     background: #464655;
     clip-path: circle(0px at top right);
     transition: clip-path ease-in-out 700ms;
+    z-index:  3;
+
 }
+
 .site-nav-open{
     clip-path: circle(150% at top right);
 }
@@ -50,19 +55,44 @@ header::after{
     margin: 0;
     padding: 0;
     list-style: none;
+    
+}  
+.site-nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+    background: #005883;
+    
+}
+.site-nav li:hover > ul {
+    display:block;
+
+}
+
+.site-nav li ul li {
+    position:relative;
+    
+}
+
+.site-nav li ul li ul {
+    right:-140px;
+    top:0px;
+    
 }
 .site-nav li{
     border-bottom: 1px solid #575766;
+    
 }
 .site-nav li:last-child{
     border-bottom: none;
 }
 .site-nav a{
-    color: #ebedb3;
+    color: #FDFDFD;
     display: block;
     padding: 2em 6em;
     text-transform: uppercase;
     text-decoration: none;
+    position:center;
 }
 .site-nav a:hover,
 .site-nav a:focus{
@@ -78,6 +108,20 @@ header::after{
     text-align: right;
     color: rgba(255, 255, 255, .4);
 }
+.site-nav li a
+{
+    text-decoration: none;
+    
+}
+.site-nav > li
+{
+    float:left;
+    
+}
+ul, ol {
+    list-style:none;
+    
+}
 
 .menu-toggle{
    
@@ -85,6 +129,7 @@ header::after{
     position: absolute;
     top: .5em;
     right: .5em;
+    
     
 }
 .menu-open .hamburger{
@@ -144,8 +189,7 @@ header::after{
   }
 
 }
-.
-.lo{
+.Ob{
     color:black;
 }
 footer

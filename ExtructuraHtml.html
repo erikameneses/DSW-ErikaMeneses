@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" href="css/styleHtml5.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/flexslider.css"type="text/css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function() {
+          $('.flexslider').flexslider();
+        });
+      </script>
+    <title>Html</title>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo"><img src="Logo_unad.png" alt="" width="100 " height="70"></h1>
+        </div>
+        <nav id="site-nav" class="site-nav">
+            <ul>
+                <br>
+                <li><a href="Unad.html"><i class=""></i>Inicio</a></li>
+                <li><a href="Conceptos.html"><i class=""></i>Conceptos</a>
+                <ul>
+                <br>
+                <li><a href="ExtructuraHtml.html"><i class=""></i> Html</a></li>
+                <br>
+                <br>
+                <li><a href="ConceptosCss3.html"><i class=""></i> Css3</a></li>
+                </ul>
+                </li>
+                <li><a href="recursos.html"><i class=""></i>Recursos</a>
+                  <ul>
+                    <br>
+                    <li><a href="Reproductor.html"><i class=""></i>Audios</a></li>
+                    <br>
+                    <br>
+                    <li><a href="#"><i class=""></i>multimedia</a></li>
+                  </ul>
+                </li>
+                <li><a href="#"><i class=""></i>Autoevaluacion</a></li>
+                <li><a href="autor.html"><i class=""></i>Autor</a></li>
+            </br>
+            </ul>
+        </nav>
+        <div id="menu-toggle" class="menu-toggle" onClick="cambiarClase()">
+            <div class="hamburger"></div>
+        </div>
+       
+    </header>
+    <br>
+    <div class="container Ob">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12  col-md-4 col-lg-4 col-xl-6">
+              <p>
+                <b><h2>¿Extructura Hml?</h2></b>
+                <br>
+                Una página web está formada por una serie de páginas enlazadas entre sí, es decir, vamos a tener
+                una serie de ficheros y cada uno de esos ficheros va a contener texto, imágenes, etc. Así que lo p
+                <br>
+                Esta conformada por las siguientes etiquetas:
+                <br>
+                <h4>Secciones</h4>
+                Las secciones son las partes temáticas en las que se puede dividir el contenido de una página web.
+                para definir agrupaciones de contenido era prácticamente la etiqueta (div) utilizada para organizar
+                los contenidos y aplicar los estilos.
+                En html5 se ha mejorado respecto a definir secciones como article, section, nav, aside, header y footer 
+                (y también la etiqueta main, aunque esta no se considere una etiqueta de sección sino de bloque).
+               
+                <br>
+               <br>
+               <h4>Secciones y esquema (outline) del documento</h4>
+               <br>
+                viene determinada por los titulos los cuales utilizamos desde h1 a h6,en html5 ya se define de acuerdo a las 
+                etiquetas nav,section y aside.
+                en estas etiques podemos incluir el heder,footer o los titulos.
+                <br>
+                <br>
+                <h3>Cuerpo del documento: body</h3>
+                <br>
+                abarca el contenido de la pagina web de esta manera la pagina solo puede contener un body.
+                <br>
+                <br>
+                <h3>Encabezamiento: heder </h3>
+                agrupa el contenido de una pagina web,El elemento (header) puede estar incluido en (body)
+                y entonces se entiende que es el encabezado de la página en su conjunto, pero también se puede
+                incluir en (article), (section), (nav) y (aside) y entonces se entiende que es el encabezado del 
+                elemento que lo contiene.  
+                <br> 
+                <br>
+                <h3>Navegación: nav</h3>
+                Agrupa los enlaces a otras paginas ,aunque los enlaces de contacto los agreagamos en el
+                footer, Podemos encontrar los nav de body,nav de heder y llos nav aside.
+                <br>
+                <br>
+                <h3>Sección: section</h3>
+                agrupar los apartados del contenido principal del documento,empiezan con un titulo,que hace
+                referencia a la seccion contenida.
+                <br>
+                <br>
+                <h3>Artículo: article</h3>
+                forma una unidad en sí misma desde el punto de vista temático. Es decir, que un artículo debería
+                poder publicarse y leerse como documento independiente, aunque una página puede estar formada por
+                varios artículos de temática relacionada o no
+            </p>
+              </div>
+              <div class="col-xs-12 col-sm-12  col-md-4 col-lg-4 col-xl-6">
+                  <br>
+                  <br>
+                <iframe width="600" height="315" src="https://www.youtube.com/embed/DxumDNXRtpI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <br>
+               <br>
+                <img src="Evolucion-de-HTML5.gif"width="600" height="315"> 
+               <br>
+               <br>
+               <br>
+               <br>
+              <h2>Referencias</h2>
+              <br>
+              <br>
+              ESTRUCTURA DE UN DOCUMENTO HTML
+              En el texto: (Estructura de un documento HTML, 2020)
+              Geneura.ugr.es. 2020. Estructura De Un Documento HTML. 
+              [online] Available at: <http://geneura.ugr.es/beatriz/estructura.html#:~:text=Un%20documento%20HTML%20está%20formado,el%20elemento%20BODY%20o%20FRAMESET).> [Accessed 19 October 2020].
+              <a href="http://geneura.ugr.es/beatriz/estructura.html#:~:text=Un%20documento%20HTML%20está%20formado,el%20elemento%20BODY%20o%20FRAMESET).">Estructura  HTML</a>
+              <br>
+              <br>
+              Secciones. HTML. Páginas web HTML y hojas de estilo CSS. 
+              Bartolomé Sintes Marco. www.mclibre.org En el texto: (Marco, 2020)
+              Marco, B., 2020. Secciones. HTML. Páginas Web HTML Y Hojas De Estilo CSS.
+              Bartolomé Sintes Marco. Www.Mclibre.Org. [online] Mclibre.org. 
+              Available at: <https://www.mclibre.org/consultar/htmlcss/html/html-secciones.html#> [Accessed 19 October 2020].
+              <a href="https://www.mclibre.org/consultar/htmlcss/html/html-secciones.html#">Secciones</a>
+              <br>
+              <br>
+              <a href="https://koranets.net/estructura-basica-de-una-pagina-en-html5/">R. (2013, 12 julio). Estructura básica de una página en HTML5. KoraNet.</a> 
+              <br>
+              <br>
+              <a href="https://www.youtube.com/embed/DxumDNXRtpI">Curso de HTML5 esencial - Estructura (header y mÃ¡s)YouTube</a>
+              
+            </div>
+              </div></div>
+              <br>
+              <br>
+    <script src="js/app.js"></script>
+    <footer>
+    
+      <div class=".container-footer">
+        <div class="Contacto">
+         <a href=""><a></a>Dirección: Calle 24 # 2-172 Urbanización García Herreros |</a><a href=""><a>Teléfono: ( +57 7 ) 5893592 /( +57 ) 3132457520 |</a></a>  
+          <br><a href=""><a>Correo electrónico: cucuta@unad.edu.co </a></a>
+          </a>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
