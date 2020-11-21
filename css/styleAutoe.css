@@ -14,7 +14,6 @@ body{
     
 }
 
-
 header{
     background: #F47920;
     color: #ebebd3;
@@ -38,8 +37,6 @@ header::after{
 .logo span{
     font-weight: 300;
 }
-
-
 .site-nav{
     top:100%;
     right:0;
@@ -48,8 +45,6 @@ header::after{
     clip-path: circle(0px at top right);
     transition: clip-path ease-in-out 700ms;
     z-index:  3;
-    flex-direction:column;
-
 
 }
 
@@ -67,6 +62,7 @@ header::after{
     position:absolute;
     min-width:140px;
     background: #005883;
+    position: center;
     
 }
 .site-nav li:hover > ul {
@@ -128,12 +124,13 @@ ul, ol {
     
 }
 
+
 .menu-toggle{
    
     padding: 1em;
     position: absolute;
-    top: .4em;
-    right: .4em;
+    top: .5em;
+    right: .5em;
     
     
 }
@@ -195,8 +192,15 @@ ul, ol {
 
 }
 .Ob{
-    color:black;
+ color: black;
+ width: 100%;
+ max-width: 1250px;
+ padding: 1em 0;
+ position: relative;
+ margin-right: 10px;
+ margin-left: 10px;
 }
+
 footer
 {
     background: #F47920;
